@@ -27,7 +27,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/news",
+        "https://news-ai-backend-1.onrender.com/news",
         { topic },
         {
           headers: {
